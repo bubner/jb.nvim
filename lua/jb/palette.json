@@ -76,7 +76,7 @@
             "bg": "#FFFFFF"
           },
           "dark": {
-            "bg": "#323438"
+            "bg": "#3c3f41"
           }
         },
         "IconError": {
@@ -192,7 +192,7 @@
             "fg": "#1D1D1D"
           },
           "dark": {
-            "fg": "#DFE1E5"
+            "fg": "#d3d3d3"
           }
         },
         "Border": {
@@ -201,7 +201,7 @@
             "bg": "#F7F8FA"
           },
           "dark": {
-            "fg": "#1E1F22",
+            "fg": "#323232",
             "bg": "#2B2D30"
           }
         },
@@ -210,7 +210,7 @@
             "bg": "#F7F8FA"
           },
           "dark": {
-            "bg": "#2B2D30"
+            "bg": "#3c3f41"
           }
         },
         "Item": {
@@ -252,7 +252,7 @@
             "bg": "#FFFFFF"
           },
           "dark": {
-            "bg": "#2B2D30"
+            "bg": "#2b2b2b"
           }
         },
         "Border": {
@@ -261,8 +261,8 @@
             "bg": "#FBFCFD"
           },
           "dark": {
-            "fg": "#43454A",
-            "bg": "#252629"
+            "fg": "#323232",
+            "bg": "#2b2b2b"
           }
         },
         "BorderSubtle": {
@@ -278,7 +278,7 @@
             "bg": "#D7E1FC"
           },
           "dark": {
-            "bg": "#32426B"
+            "bg": "#4b6eaf"
           }
         },
         "SectionTitle": {
@@ -514,7 +514,7 @@
             "bg": "#F5F8FE"
           },
           "dark": {
-            "bg": "#1F2024"
+            "bg": "#323232"
           }
         },
         "Guides": {
@@ -566,7 +566,7 @@
             "bg": "#A6D2FF"
           },
           "dark": {
-            "bg": "#214283"
+            "bg": "#264f78"
           }
         },
         "SelectionForeground": null,
@@ -939,8 +939,8 @@
             "bg": "#FFFFFE"
           },
           "dark": {
-            "fg": "#BCBEC4",
-            "bg": "#191A1C"
+            "fg": "#A9B7C6",
+            "bg": "#2b2b2b"
           }
         },
         "DefaultTextFg": {
@@ -948,7 +948,7 @@
             "fg": "#080808"
           },
           "dark": {
-            "fg": "#BCBEC4"
+            "fg": "#A9B7C6"
           }
         },
         "DefaultTextFgItalic": {
@@ -957,7 +957,7 @@
             "italic": true
           },
           "dark": {
-            "fg": "#BCBEC4",
+            "fg": "#A9B7C6",
             "italic": true
           }
         },
@@ -966,7 +966,7 @@
             "bg": "#FFFFFE"
           },
           "dark": {
-            "bg": "#191A1C"
+            "bg": "#2b2b2b"
           }
         },
         "DefaultTextBgShadowedLight": {
@@ -1193,16 +1193,34 @@
             "fg": "#BCBEC4"
           }
         },
-        "FunctionCall": "LanguageDefaults|Identifiers|Default",
+        "FunctionCall": {
+          "light": {
+            "fg": "#FFC66D"
+          },
+          "dark": {
+            "fg": "#FFC66D"
+          }
+        },
         "FunctionDeclaration": {
           "light": {
             "fg": "#00627A"
           },
           "dark": {
-            "fg": "#56A8F5"
+            "fg": "#FFC66D"
           }
         },
-        "GlobalVariable": "LanguageDefaults|Identifiers|Default",
+        "GlobalVariable": {
+          "light": {
+            "fg": "#830091",
+            "italic": true,
+            "bold": true
+          },
+          "dark": {
+            "fg": "#9876AA",
+            "italic": true,
+            "bold": true
+          }
+        },
         "Label": {
           "light": {
             "sp": "#808080",
@@ -1358,7 +1376,7 @@
             "fg": "#067D17"
           },
           "dark": {
-            "fg": "#6AAB73"
+            "fg": "#6A8759"
           }
         }
       },
@@ -1540,7 +1558,7 @@
             "fg": "#0000EE"
           },
           "dark": {
-            "fg": "#56A8F5"
+            "fg": "#FFC66D"
           }
         },
         "Warning": {
@@ -1932,8 +1950,8 @@
           "bg": "#F7F8FA"
         },
         "dark": {
-          "fg": "#9A9CA4",
-          "bg": "#2B2D30"
+          "fg": "#bbbbbb",
+          "bg": "#3c3f41"
         }
       },
       "Dialog": {
@@ -2128,7 +2146,7 @@
         },
         "dark": {
           "fg": "#ced0d5",
-          "bg": "#2b2d30"
+          "bg": "#515658"
         }
       },
       "Completion": {
@@ -2171,7 +2189,7 @@
             "fg": "#D04B50"
           },
           "dark": {
-            "fg": "#D1655F"
+            "fg": "#FFC66D"
           }
         },
         "Function": {
@@ -2179,7 +2197,7 @@
             "fg": "#D04A4F"
           },
           "dark": {
-            "fg": "#D1655F"
+            "fg": "#FFC66D"
           }
         },
         "Constructor": {
@@ -2187,7 +2205,7 @@
             "fg": "#D04B50"
           },
           "dark": {
-            "fg": "#D1655F"
+            "fg": "#FFC66D"
           }
         },
         "Field": {
@@ -2658,7 +2676,7 @@
       "HexColor": {
         "light": "CSS|Identifier",
         "dark": {
-          "fg": "#56A8F5"
+          "fg": "#FFC66D"
         }
       },
       "IdSelector": "CSS|Identifier",
@@ -2936,7 +2954,7 @@
       "EntityReference": {
         "light": "LanguageDefaults|Markup|Entity",
         "dark": {
-          "fg": "#56A8F5"
+          "fg": "#FFC66D"
         }
       },
       "HTMLCode": null,
@@ -3086,7 +3104,7 @@
             "fg": "#914C07"
           },
           "dark": {
-            "fg": "#56A8F5"
+            "fg": "#FFC66D"
           }
         },
         "Property": null
@@ -3242,8 +3260,8 @@
         "AutoLink": {
           "light": "General|Hyperlinks|Unfollowed",
           "dark": {
-            "fg": "#56A8F5",
-            "sp": "#56A8F5",
+            "fg": "#FFC66D",
+            "sp": "#FFC66D",
             "underline": true
           }
         },
@@ -3825,7 +3843,7 @@
       "EntityReference": {
         "light": "LanguageDefaults|Markup|Entity",
         "dark": {
-          "fg": "#56A8F5"
+          "fg": "#FFC66D"
         }
       },
       "InjectedLanguageFragment": "General|Code|InjectedLanguageFragment",
