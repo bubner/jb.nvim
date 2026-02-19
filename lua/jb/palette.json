@@ -1308,7 +1308,7 @@
           "fg": "#0033B3"
         },
         "dark": {
-          "fg": "#CF8E6D"
+          "fg": "#CC7832"
         }
       },
       "Markup": {
@@ -1355,7 +1355,7 @@
               "fg": "#0037A6"
             },
             "dark": {
-              "fg": "#CF8E6D"
+              "fg": "#CC7832"
             }
           },
           "Invalid": {
@@ -1364,7 +1364,7 @@
               "bg": "#FFCCCC"
             },
             "dark": {
-              "fg": "#CF8E6D",
+              "fg": "#CC7832",
               "undercurl": true,
               "sp": "#FA6675"
             }
@@ -2938,9 +2938,11 @@
     },
     "HTML": {
       "AttributeName": {
-        "light": "LanguageDefaults|Markup|Attribute",
+        "light": {
+          "fg": "#CC7832"
+        },
         "dark": {
-          "fg": "#BABABA"
+          "fg": "#CC7832"
         }
       },
       "AttributeValue": "LanguageDefaults|String|StringText",
@@ -2959,16 +2961,20 @@
       },
       "HTMLCode": null,
       "InjectedLanguageFragment": "XML|InjectedLanguageFragment",
-      "Tag": {
-        "light": "LanguageDefaults|Markup|Tag",
+      "TagName": {
+        "light": {
+          "fg": "#F4B340"
+        },
         "dark": {
-          "fg": "#D5B778"
+          "fg": "#F4B340"
         }
       },
-      "TagName": {
-        "light": "LanguageDefaults|Keyword",
+      "Tag": {
+        "light": {
+          "fg": "#F4B340"
+        },
         "dark": {
-          "fg": "#D5B778"
+          "fg": "#F4B340"
         }
       },
       "TagTreeLevel1": null,
