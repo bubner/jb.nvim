@@ -1071,14 +1071,21 @@
         }
       },
       "Classes": {
-        "ClassName": "LanguageDefaults|Identifiers|Default",
+        "ClassName": {
+          "light": {
+            "fg": "#FFC66D"
+          },
+          "dark": {
+            "fg": "#FFC66D"
+          }
+        },
         "ClassReference": "LanguageDefaults|Identifiers|Default",
         "InstanceField": {
           "light": {
             "fg": "#871094"
           },
           "dark": {
-            "fg": "#C77DBB"
+            "fg": "#9876AA"
           }
         },
         "InstanceMethod": {
@@ -1096,7 +1103,7 @@
             "italic": true
           },
           "dark": {
-            "fg": "#C77DBB",
+            "fg": "#9876AA",
             "italic": true
           }
         },
@@ -1181,7 +1188,7 @@
             "italic": true
           },
           "dark": {
-            "fg": "#C77DBB",
+            "fg": "#9876AA",
             "italic": true
           }
         },
@@ -1689,7 +1696,7 @@
           "fg": "#74118C"
         },
         "dark": {
-          "fg": "#C77DBB"
+          "fg": "#9876AA"
         }
       },
       "Keyword3": {
@@ -2689,7 +2696,7 @@
       "PropertyValue": "HTML|AttributeValue",
       "PseudoSelector": "CSS|Identifier",
       "Semicolon": null,
-      "String": null,
+      "String": "LanguageDefaults|Number",
       "TagName": "HTML|TagName",
       "UnicodeRange": "CSS|Identifier",
       "Unit": null,
@@ -3009,6 +3016,12 @@
       "ClassesAndInterfaces": null,
       "Comments": null,
       "Keyword": "LanguageDefaults|Keyword",
+      "Type": {
+          "light": "General|Text|DefaultTextFg",
+          "dark": {
+            "fg": "#BCBEC4"
+          }
+      },
       "Methods": {
         "AbstractMethod": null,
         "ConstructorCall": null,
@@ -3099,7 +3112,7 @@
           "fg": "#AD6339"
         },
         "dark": {
-          "fg": "#9C9CFF"
+          "fg": "#9876AA"
         }
       },
       "Keyword": null,
@@ -3840,7 +3853,7 @@
       "AttributeName": {
         "light": "LanguageDefaults|Markup|Attribute",
         "dark": {
-          "fg": "#BCBEC4"
+          "fg": "#CC7832"
         }
       },
       "AttributeValue": "LanguageDefaults|String|StringText",
@@ -4572,6 +4585,7 @@
       "@keyword.directive.css": "CSS|AtKeyword",
       "@property.css": "CSS|PropertyName",
       "@tag.css": "CSS|TagName",
+      "@string.css": "CSS|String",
       "@tag.attribute.css": "CSS|AttributeName",
       "@type.css": "CSS|ClassName",
       "@variable.css": "CSS|Identifier"
@@ -4640,7 +4654,8 @@
       "@function.method.call.java": "Java|Methods|MethodCall",
       "@type.parameter.java": "Java|Parameters|TypeParameter",
       "@variable.member.java": "Java|ClassFields|InstanceField",
-      "@keyword.java": "Java|Keyword"
+      "@keyword.java": "Java|Keyword",
+      "@type.java": "Java|Type"
     },
     "Semantic.Java": {
       "@lsp.type.modifier.java": "Java|Keyword",
@@ -4651,6 +4666,9 @@
       "@lsp.type.typeParameter.java": "Java|Parameters|TypeParameter",
       "@lsp.type.annotation.java": "Java|Annotations|AnnotationName",
       "@lsp.type.recordComponent.java": "Java|ClassFields|RecordComponent"
+    },
+    "Semantic.Kotlin": {
+      "@lsp.type.class.kotlin": "Java|Type"
     },
     "Treesitter.JavaScript": {
       "@function.method.javascript": "JavaScript|Object|Method",
@@ -5528,6 +5546,23 @@
     "Plugin.github/copilot.vim": {
       "CopilotSuggestion": "LanguageDefaults|InlineHints|TextWithoutBackground",
       "CopilotAnnotation": "LanguageDefaults|InlineHints|TextWithoutBackground"
+    },
+    "Plugin.folke/snacks.nvim.dashboard": {
+      "SnacksDashboardDesc": {
+        "fg": "#ffffff"
+      },
+      "SnacksDashboardIcon": {
+        "fg": "#ffffff"
+      },
+      "SnacksDashboardTitle": {
+        "fg": "#ffffff"
+      },
+      "SnacksDashboardKey": {
+        "fg": "#FFC66D"
+      },
+      "SnacksDashboardHeader": {
+        "fg": "#CC7832"
+      }
     },
     "Plugin.folke/snacks.nvim.notifier": {
       "SnacksNotifierBorderDebug": {
