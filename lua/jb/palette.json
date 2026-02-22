@@ -166,7 +166,7 @@
             "fg": "#EBECEF"
           },
           "dark": {
-            "fg": "#3D3F43"
+            "fg": "#EBECEF"
           }
         },
         "SymLink": {
@@ -2952,6 +2952,16 @@
           "fg": "#CC7832"
         }
       },
+      "Link": {
+        "light": {
+          "fg": "#51a2ff",
+          "underline": true
+        },
+        "dark": {
+          "fg": "#51a2ff",
+          "underline": true
+        }
+      },
       "AttributeValue": "LanguageDefaults|String|StringText",
       "Comment": null,
       "CustomTagName": {
@@ -4635,6 +4645,7 @@
       "@character.special.html": "HTML|EntityReference",
       "@tag.delimiter.html": "HTML|Tag",
       "@tag.html": "HTML|TagName",
+      "@markup.link.label.html": "HTML|Link",
       "@tag.attribute.html": "HTML|AttributeName",
       "@string.html": "HTML|AttributeValue",
       "@markup.heading": "General|Text|DefaultTextFg",
