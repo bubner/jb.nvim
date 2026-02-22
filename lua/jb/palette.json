@@ -4658,6 +4658,7 @@
       "@type.java": "Java|Type"
     },
     "Semantic.Java": {
+      "@lsp.type.class.java": "Java|Type",
       "@lsp.type.modifier.java": "Java|Keyword",
       "@lsp.type.method.java": "Java|Methods|MethodCall",
       "@lsp.typemod.method.declaration.java": "Java|Methods|MethodDeclaration",
@@ -4669,6 +4670,9 @@
     },
     "Semantic.Kotlin": {
       "@lsp.type.class.kotlin": "Java|Type"
+    },
+    "Treesitter.Kotlin": {
+      "@function.builtin.kotlin": "LanguageDefaults|Identifiers|FunctionDeclaration"
     },
     "Treesitter.JavaScript": {
       "@function.method.javascript": "JavaScript|Object|Method",
