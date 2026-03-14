@@ -3089,6 +3089,16 @@
           "light": "General|Text|DefaultTextFgItalic",
           "dark": "LanguageDefaults|Identifiers|FunctionDeclaration"
         },
+        "Type": {
+          "light": {
+            "fg": "#FFC66D",
+            "italic": true
+          },
+          "dark": {
+            "fg": "#FFC66D",
+            "italic": true
+          }
+        },
         "GlobalVariable": {
           "light": {
             "fg": "#830091"
@@ -4694,7 +4704,8 @@
       "@variable.parameter.javascript": "JavaScript|Identifiers|Parameter",
       "@keyword.jsdoc": "JavaScript|Comments|JSDoc|Tag",
       "@type.jsdoc": "JavaScript|Comments|JSDoc|Type",
-      "@variable.builtin.javascript": "JavaScript|Identifiers|GlobalVariable"
+      "@variable.builtin.javascript": "JavaScript|Identifiers|GlobalVariable",
+      "@type.javascript": "JavaScript|Identifiers|Type"
     },
     "Semantic.JavaScript": {
       "@lsp.type.variable.javascript": null,
