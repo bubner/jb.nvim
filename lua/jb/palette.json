@@ -4690,6 +4690,7 @@
       "@function.method.call.javascript": "JavaScript|Object|Method",
       "@tag.javascript": "JavaScript|JSXClientComponent",
       "@variable.javascript": "JavaScript|Identifiers|LocalVariable",
+      "@constructor.javascript": "JavaScript|Object|Method",
       "@variable.parameter.javascript": "JavaScript|Identifiers|Parameter",
       "@keyword.jsdoc": "JavaScript|Comments|JSDoc|Tag",
       "@type.jsdoc": "JavaScript|Comments|JSDoc|Type",
