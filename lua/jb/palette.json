@@ -2952,16 +2952,7 @@
           "fg": "#CC7832"
         }
       },
-      "Link": {
-        "light": {
-          "fg": "#51a2ff",
-          "underline": true
-        },
-        "dark": {
-          "fg": "#51a2ff",
-          "underline": true
-        }
-      },
+      "Link": null,
       "AttributeValue": "LanguageDefaults|String|StringText",
       "Comment": null,
       "CustomTagName": {
