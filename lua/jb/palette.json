@@ -76,7 +76,7 @@
             "bg": "#FFFFFF"
           },
           "dark": {
-            "bg": "#3c3f41"
+            "bg": "#2e2f32"
           }
         },
         "IconError": {
@@ -109,8 +109,8 @@
             "bg": "#FFFFFF"
           },
           "dark": {
-            "fg": "#323438",
-            "bg": "#323438"
+            "fg": "#2a2a2a",
+            "bg": "#2a2a2a"
           }
         }
       },
@@ -210,7 +210,7 @@
             "bg": "#F7F8FA"
           },
           "dark": {
-            "bg": "#3c3f41"
+            "bg": "#2e2f32"
           }
         },
         "Item": {
@@ -520,7 +520,7 @@
         "Guides": {
           "HardWrapGuide": {
             "dark": {
-              "fg": "#323438"
+              "fg": "#2a2a2a"
             },
             "light": {
               "fg": "#EBECF0"
@@ -531,7 +531,7 @@
               "fg": "#EBECF0"
             },
             "dark": {
-              "fg": "#323438"
+              "fg": "#2a2a2a"
             }
           },
           "IndentGuideSelected": {
@@ -575,7 +575,7 @@
           "Border": "General|Editor|Guides|HardWrapGuide",
           "BorderDarker": {
             "dark": {
-              "fg": "#4d4f53"
+              "fg": "#2a2a2a"
             },
             "light": {
               "fg": "#d4d4d8"
@@ -1958,7 +1958,7 @@
         },
         "dark": {
           "fg": "#bbbbbb",
-          "bg": "#3c3f41"
+          "bg": "#2e2f32"
         }
       },
       "Dialog": {
